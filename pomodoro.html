@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="pomo_style.css"/>
+    <link type="text/css" rel="stylesheet" href="pomodoro-clock.css"/>
+    <style>
+	@import url('https://fonts.googleapis.com/css?family=Lato');
+	</style>
+
+	<title>Pomodoro Clock by Tor</title>
+</head>
+
+<body>
+
+	<h1>Tor's Pomorodo Clock</h1>
+
+	<div id="circleClock" class="circle-clock">
+	  <div id="clockTime" class="clock-time">
+	    <h3>
+	      <span id="minutes">25</span>:
+	      <span id="seconds">00</span>
+	    </h3>
+	  </div>
+	  <!-- <div id="clockStatus" class="status">Click to start!</div> -->
+	</div>
+
+	<div class="setters">
+
+	  <div class="break-setter">
+	    <p class="breakText">Break time</p>
+	    <button id="breakPlus">+</button>
+	    <span id="breakTime" class="break-time">5 min</span>
+	    <button id="breakMinus">-</button>
+	  </div>
+
+	  <div class="work-setter">
+	    <p class="workText">Work time</p>
+	    <button id="workPlus">+</button>
+	    <span id="workTime" class="work-time">25 min</span>
+	    <button id="workMinus">-</button>
+	  </div>
+
+	</div>
+
+</body>
+
+<script type='text/javascript' src='pomo_js.js'></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script> 
+<script type='text/javascript' src='pomodoro-clock.js'></script>
+
+</html>

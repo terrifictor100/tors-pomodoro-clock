@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  background-color:#333333;
+  margin: 0;
+}
+
+/* Project Container */
+html, body, .container {
+  height: 100%;
+  overflow: hidden;
+  background-color: $black;
+}
+
+/* Project Title */
+h1 {
+  font-family: 'Pacifico', cursive;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-size: 5em;
+}
+
+
+/* Circle Timer */
+.circle-clock {
+  color: white;
+  cursor: pointer;
+  border-color: #99CC00;
+  border-width: 2px;
+  border-radius: 50%;
+  border-style: solid;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+h3 {
+  font-size: 6em;
+  display: flex;
+  margin: 0 auto;
+  vertical-align: middle;
+  line-height: 400px
+}
+
+/* Time Setters */
+.break-setter,
+.work-setter {
+  margin-top: 4%;
+  color: white;
+  font-size: 1.5em;
+}
+
+
+.break-setter {
+  padding-right: 2%;
+
+}
+
+.work-setter {
+  padding-left: 2%;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  color: #99CC00;
+}
+
+.break-time,
+.work-time {
+
+}
+
+.setters {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 20px;
+}
